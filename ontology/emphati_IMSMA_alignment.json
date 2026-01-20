@@ -1,0 +1,53 @@
+{
+  "ontology1": "IMSMA",
+  "ontology2": "empathi",
+  "entity_alignment": [
+    { "imsma": "AccidentCauses", "empathi": "Criminal_Activity" },
+    { "imsma": "AccidentDateTime", "empathi": "http://purl.org/dc/dcmitype/Event" },
+    { "imsma": "AccidentDescription", "empathi": "Report" },
+    { "imsma": "AccidentOrganisation", "empathi": "Organization" },
+    { "imsma": "ActivityDuration", "empathi": "HazardPhase" },
+    { "imsma": "Age", "empathi": "Age_Group" },
+    { "imsma": "AreaSize", "empathi": "Area" },
+    { "imsma": "Association", "empathi": "Organization" },
+    { "imsma": "Contamination", "empathi": "Contamination" },
+    { "imsma": "Cost", "empathi": "Financial_Crisis" },
+    { "imsma": "DeminingDevice", "empathi": "Miscellaneous" },
+    { "imsma": "Disability", "empathi": "Health_Issues" },
+    { "imsma": "EconomicImpact", "empathi": "Financial_Crisis" },
+    { "imsma": "Gender", "empathi": "People" },
+    { "imsma": "GeospatialInformation", "empathi": "Location" },
+    { "imsma": "Hospital", "empathi": "Primary_Care_Hospital" },
+    { "imsma": "Injury", "empathi": "Health_Issues" },
+    { "imsma": "Location", "empathi": "Location" },
+    { "imsma": "MedicalFacility", "empathi": "Healthcare_Service" },
+    { "imsma": "Municipality", "empathi": "Area" },
+    { "imsma": "Organisation", "empathi": "Organization" },
+    { "imsma": "Status", "empathi": "Status" },
+    { "imsma": "Victim", "empathi": "Victim" }
+  ],
+  "relation_alignment": [
+    { "imsma": "hasAccidentIdentification", "empathi": "involvedEvent" },
+    { "imsma": "hasAssociation", "empathi": "involvedEvent" },
+    { "imsma": "hasDuration", "empathi": "phase" },
+    { "imsma": "hasGeospatialInfo", "empathi": "http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation" },
+    { "imsma": "hasImpactAnalysisInfo", "empathi": "Impact" },
+    { "imsma": "hasLocation", "empathi": "http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation" },
+    { "imsma": "isLocatedInDangerousArea", "empathi": "http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation" },
+    { "imsma": "isLocatedNear", "empathi": "http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation" },
+    { "imsma": "receivesMedicalAssistance", "empathi": "Healthcare_Service" }
+  ],
+  "unaligned_elements": {
+    "imsma_entities": [
+      "ActivityName", "AmmunitionStorage", "DetectionArea", "DetectionDate", 
+      "DetectionMethod", "OrdnanceCondition", "ConflictPresence", "HazardReductionArea", 
+      "SoilContamination", "Drainage", "GroundProfile", "SoilMetalContentLevel", 
+      "MetalContaminationLevel", "UXOCondition", "HazardReductionMethod", 
+      "IntendedLandUse", "MarkingMethod", "TechnicalSurveyType", "TypeOfActivity", 
+      "TypeOfDangerousArea", "TypeOfMinefield", "VegetationRemoval"
+    ],
+    "empathi_classes": [
+      "Tsunami", "PowerOutage", "Food", "Shelter", "Transportation", "Communication"
+    ]
+  }
+}

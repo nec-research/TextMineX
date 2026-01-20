@@ -1,0 +1,14 @@
+Concepts:
+AdministrativeArea
+Association
+Location
+Organisation
+MedicalFacility
+
+Relations:
+hasAdministrativeArea
+hasAssociation
+hasLocation
+hasOrganisation
+locatedNear
+
